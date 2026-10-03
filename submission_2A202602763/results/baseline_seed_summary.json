@@ -1,0 +1,13 @@
+{
+  "baseline_lr": 0.1,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "val_acc_mean": 0.9097050407693467,
+  "val_acc_std": 0.0024424265536689494,
+  "val_macro_f1_mean": 0.8542656551567207,
+  "val_macro_f1_std": 0.01189376265311929,
+  "noise_reference_2sigma": 0.02378752530623858
+}

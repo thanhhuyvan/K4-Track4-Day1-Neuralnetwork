@@ -1,0 +1,25 @@
+{
+  "exp_id": "base-s1",
+  "cfg": {
+    "exp_id": "base-s1",
+    "group": "baseline",
+    "description": "M-base, SGD momentum",
+    "loss": "ce",
+    "optimizer": "sgd_momentum",
+    "lr": 0.1,
+    "weight_decay": 0.0,
+    "momentum": 0.9,
+    "batch": 512,
+    "epochs": 20,
+    "hidden": [
+      256,
+      128
+    ],
+    "dropout": 0.0,
+    "init": "he",
+    "clip_norm": null,
+    "precision": "fp32",
+    "seed": 1
+  },
+  "best_epoch": 18
+}

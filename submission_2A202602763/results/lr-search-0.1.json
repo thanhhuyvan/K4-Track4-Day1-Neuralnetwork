@@ -1,0 +1,83 @@
+{
+  "cfg": {
+    "exp_id": "lr-search-0.1",
+    "group": "lr_search",
+    "description": "5-epoch pilot for baseline learning rate",
+    "loss": "ce",
+    "optimizer": "sgd_momentum",
+    "lr": 0.1,
+    "weight_decay": 0.0,
+    "momentum": 0.9,
+    "batch": 512,
+    "epochs": 5,
+    "hidden": [
+      256,
+      128
+    ],
+    "dropout": 0.0,
+    "init": "he",
+    "clip_norm": null,
+    "precision": "fp32",
+    "seed": 1
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4584711844800212,
+      "val_loss": 0.4634267119635675,
+      "val_acc": 0.8011983391063014,
+      "val_macro_f1": 0.6235660148092457,
+      "grad_norm": 0.5292729284855162,
+      "grad_norm_max": 2.84374737739563,
+      "seconds": 1.2413946899999928
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.39265779250926686,
+      "val_loss": 0.39795090192625754,
+      "val_acc": 0.8312751446827736,
+      "val_macro_f1": 0.7018305383223019,
+      "grad_norm": 0.5683889171362251,
+      "grad_norm_max": 1.0795958042144775,
+      "seconds": 1.258667121999963
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.3736052863848671,
+      "val_loss": 0.38125996583210453,
+      "val_acc": 0.8383210344011531,
+      "val_macro_f1": 0.7237019255289073,
+      "grad_norm": 0.5686312947509378,
+      "grad_norm_max": 1.2169280052185059,
+      "seconds": 1.3544386209999857
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.3663006009331836,
+      "val_loss": 0.37612835396505906,
+      "val_acc": 0.8449151266108733,
+      "val_macro_f1": 0.7392879504607391,
+      "grad_norm": 0.574525921675985,
+      "grad_norm_max": 1.078500747680664,
+      "seconds": 1.291611617000001
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.3140634679129767,
+      "val_loss": 0.32284208341436915,
+      "val_acc": 0.8669241195327123,
+      "val_macro_f1": 0.77563193342608,
+      "grad_norm": 0.5724748611204233,
+      "grad_norm_max": 0.9961321353912354,
+      "seconds": 1.3064376940000102
+    }
+  ],
+  "initial_val_loss": 2.2690618110553,
+  "best_epoch": 5,
+  "best_val_loss": 0.32284208341436915,
+  "val_acc": 0.8669241195327123,
+  "val_macro_f1": 0.77563193342608,
+  "total_seconds": 6.4711172049999846,
+  "peak_memory_mb": 161.12060546875,
+  "diverged": false
+}

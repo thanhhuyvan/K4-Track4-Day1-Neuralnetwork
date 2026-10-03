@@ -1,0 +1,10 @@
+{
+  "selection_rule": "Higher mean validation macro-F1 across seeds 1,2,3; ties use baseline",
+  "baseline_mean_f1": 0.8542656551567207,
+  "baseline_std_f1": 0.01189376265311929,
+  "candidate_mean_f1": 0.8505843413232342,
+  "candidate_std_f1": 0.004005374973295701,
+  "final_exp_id": "base-s1",
+  "submission_seed": 1,
+  "checkpoint_rule": "Lowest validation loss within each run"
+}

@@ -1,0 +1,83 @@
+{
+  "cfg": {
+    "exp_id": "lr-search-0.03",
+    "group": "lr_search",
+    "description": "5-epoch pilot for baseline learning rate",
+    "loss": "ce",
+    "optimizer": "sgd_momentum",
+    "lr": 0.03,
+    "weight_decay": 0.0,
+    "momentum": 0.9,
+    "batch": 512,
+    "epochs": 5,
+    "hidden": [
+      256,
+      128
+    ],
+    "dropout": 0.0,
+    "init": "he",
+    "clip_norm": null,
+    "precision": "fp32",
+    "seed": 1
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5141159794577301,
+      "val_loss": 0.5170220518973405,
+      "val_acc": 0.7801036982853209,
+      "val_macro_f1": 0.5788082732045058,
+      "grad_norm": 0.5175234189838622,
+      "grad_norm_max": 2.84374737739563,
+      "seconds": 1.2784721030000128
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.4523212714564433,
+      "val_loss": 0.457182206291537,
+      "val_acc": 0.8068780792151632,
+      "val_macro_f1": 0.6546888955140953,
+      "grad_norm": 0.7293716116079438,
+      "grad_norm_max": 1.971441626548767,
+      "seconds": 1.2505027699999687
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.4174813325586695,
+      "val_loss": 0.42291814983577136,
+      "val_acc": 0.824164712463157,
+      "val_macro_f1": 0.6864313986336315,
+      "grad_norm": 0.8028137185796583,
+      "grad_norm_max": 1.8203461170196533,
+      "seconds": 1.2410617929999717
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.40503916438902265,
+      "val_loss": 0.4123290821723003,
+      "val_acc": 0.8291022138077925,
+      "val_macro_f1": 0.7079924112027873,
+      "grad_norm": 0.8968353388316038,
+      "grad_norm_max": 2.1582272052764893,
+      "seconds": 1.2061521080000261
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.3668159813170269,
+      "val_loss": 0.37349849089600873,
+      "val_acc": 0.8447322561907016,
+      "val_macro_f1": 0.7279290865679423,
+      "grad_norm": 0.8937259306196006,
+      "grad_norm_max": 2.0108275413513184,
+      "seconds": 1.2586809669999752
+    }
+  ],
+  "initial_val_loss": 2.2690618110553,
+  "best_epoch": 5,
+  "best_val_loss": 0.37349849089600873,
+  "val_acc": 0.8447322561907016,
+  "val_macro_f1": 0.7279290865679423,
+  "total_seconds": 6.253372746999958,
+  "peak_memory_mb": 161.12060546875,
+  "diverged": false
+}
